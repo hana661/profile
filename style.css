@@ -6,6 +6,31 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+/* Navigation Bar */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: blue;
+    border-radius: 5px;
+}
 
 .profile-container {
     max-width: 900px;
